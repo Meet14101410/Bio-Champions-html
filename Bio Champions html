@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bio Champions</title>
+</head>
+<body>
+  <h1>🧬 Bio Champions</h1>
+  <p>Answer biology questions and become the champion!</p>
+
+  <button onclick="startGame()">Start Game</button>
+
+  <script>
+    function startGame() {
+      let answer = prompt("What is the powerhouse of the cell?");
+      if (answer.toLowerCase() === "mitochondria") {
+        alert("🏆 Correct! You are a Bio Champion!");
+      } else {
+        alert("❌ Wrong! Try Again.");
+      }
+    }
+  </script>
+</body>
+</html>
