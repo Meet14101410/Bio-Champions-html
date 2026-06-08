@@ -1,0 +1,9 @@
+function startGame() {
+  const answer = prompt("What is the powerhouse of the cell?");
+
+  if (answer && answer.toLowerCase() === "mitochondria") {
+    alert("🏆 Correct! You are a Bio Champion!");
+  } else {
+    alert("❌ Wrong answer. Try again!");
+  }
+}
